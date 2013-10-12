@@ -1,0 +1,431 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 18, ../sass/screen.scss */
+body {
+  background-color: #1ABC9C;
+}
+
+/* line 25, ../sass/screen.scss */
+.wrapper {
+  margin: 5% auto;
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+
+/* line 32, ../sass/screen.scss */
+.turquoise {
+  /*Turquoise diamond*/
+}
+/* line 40, ../sass/screen.scss */
+.turquoise > div {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+/* line 46, ../sass/screen.scss */
+.turquoise .p7 {
+  z-index: 1;
+  top: 0;
+  left: 0;
+  border-bottom: 100px solid transparent;
+  border-left: 100px solid #16a085;
+  border-top: 100px solid transparent;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+/* line 51, ../sass/screen.scss */
+.turquoise .p8 {
+  z-index: 1;
+  top: -5px;
+  left: 85px;
+  border-bottom: 70.92199px solid transparent;
+  border-left: 70.92199px solid #16a085;
+  border-top: 70.92199px solid transparent;
+}
+/* line 55, ../sass/screen.scss */
+.turquoise .p1 {
+  z-index: 1;
+  top: -40px;
+  left: 119px;
+  border-bottom: 70.92199px solid transparent;
+  border-left: 70.92199px solid #2eb89d;
+  border-top: 70.92199px solid transparent;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+/* line 60, ../sass/screen.scss */
+.turquoise .p2 {
+  z-index: 1;
+  top: -40px;
+  left: 258px;
+  border-bottom: 70.92199px solid transparent;
+  border-left: 70.92199px solid #2eb89d;
+  border-top: 70.92199px solid transparent;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+/* line 65, ../sass/screen.scss */
+.turquoise .p5 {
+  z-index: 1;
+  top: -40px;
+  left: 189px;
+  border-bottom: 70.92199px solid transparent;
+  border-left: 70.92199px solid #5ce6cb;
+  border-top: 70.92199px solid transparent;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+/* line 70, ../sass/screen.scss */
+.turquoise .p6 {
+  z-index: 1;
+  top: 30px;
+  left: 189px;
+  border-bottom: 70.92199px solid transparent;
+  border-left: 70.92199px solid #5ce6cb;
+  border-top: 70.92199px solid transparent;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+/* line 75, ../sass/screen.scss */
+.turquoise .p3 {
+  z-index: 1;
+  top: 30px;
+  left: 119px;
+  border-bottom: 70.92199px solid transparent;
+  border-left: 70.92199px solid #4dd7bc;
+  border-top: 70.92199px solid transparent;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+/* line 80, ../sass/screen.scss */
+.turquoise .p4 {
+  z-index: 1;
+  top: 30px;
+  left: 259px;
+  border-bottom: 70.92199px solid transparent;
+  border-left: 70.92199px solid #4dd7bc;
+  border-top: 70.92199px solid transparent;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+/* line 85, ../sass/screen.scss */
+.turquoise .p9 {
+  z-index: 1;
+  top: -5px;
+  left: 293px;
+  border-bottom: 70.92199px solid transparent;
+  border-left: 70.92199px solid #16a085;
+  border-top: 70.92199px solid transparent;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+/* line 90, ../sass/screen.scss */
+.turquoise .p10 {
+  z-index: 1;
+  top: 0;
+  left: 348px;
+  border-bottom: 100px solid transparent;
+  border-left: 100px solid #16a085;
+  border-top: 100px solid transparent;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+/* line 95, ../sass/screen.scss */
+.turquoise .p19 {
+  z-index: 1;
+  top: 70px;
+  left: 0;
+  border-bottom: 100px solid transparent;
+  border-left: 100px solid #5ce6cb;
+  border-top: 100px solid transparent;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+/* line 100, ../sass/screen.scss */
+.turquoise .p11 {
+  z-index: 1;
+  top: 100px;
+  left: 119px;
+  border-bottom: 70.92199px solid transparent;
+  border-left: 70.92199px solid #2eb89d;
+  border-top: 70.92199px solid transparent;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+/* line 105, ../sass/screen.scss */
+.turquoise .p20 {
+  z-index: 1;
+  top: 135px;
+  left: 85px;
+  border-bottom: 70.92199px solid transparent;
+  border-left: 70.92199px solid #5ce6cb;
+  border-top: 70.92199px solid transparent;
+}
+/* line 109, ../sass/screen.scss */
+.turquoise .p12 {
+  z-index: 1;
+  top: 99px;
+  left: 189px;
+  border-bottom: 70.92199px solid transparent;
+  border-left: 70.92199px solid #23ad92;
+  border-top: 70.92199px solid transparent;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+/* line 114, ../sass/screen.scss */
+.turquoise .p13 {
+  z-index: 1;
+  top: 169px;
+  left: 189px;
+  border-bottom: 70.92199px solid transparent;
+  border-left: 70.92199px solid #23ad92;
+  border-top: 70.92199px solid transparent;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+/* line 119, ../sass/screen.scss */
+.turquoise .p14 {
+  z-index: 1;
+  top: 135px;
+  left: 294px;
+  border-bottom: 70.92199px solid transparent;
+  border-left: 70.92199px solid #5ce6cb;
+  border-top: 70.92199px solid transparent;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+/* line 124, ../sass/screen.scss */
+.turquoise .p15 {
+  z-index: 1;
+  top: 100px;
+  left: 259px;
+  border-bottom: 70.92199px solid transparent;
+  border-left: 70.92199px solid #2eb89d;
+  border-top: 70.92199px solid transparent;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+/* line 129, ../sass/screen.scss */
+.turquoise .p16 {
+  z-index: 1;
+  top: 70px;
+  left: 349px;
+  border-bottom: 100px solid transparent;
+  border-left: 100px solid #5ce6cb;
+  border-top: 100px solid transparent;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+/* line 134, ../sass/screen.scss */
+.turquoise .p17 {
+  z-index: 1;
+  top: 205px;
+  left: 294px;
+  border-bottom: 70.92199px solid transparent;
+  border-left: 70.92199px solid #5ce6cb;
+  border-top: 70.92199px solid transparent;
+}
+/* line 138, ../sass/screen.scss */
+.turquoise .p18 {
+  z-index: 1;
+  top: 205px;
+  left: 84px;
+  border-bottom: 70.92199px solid transparent;
+  border-left: 70.92199px solid #5ce6cb;
+  border-top: 70.92199px solid transparent;
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+}
+/* line 143, ../sass/screen.scss */
+.turquoise .p21 {
+  z-index: 1;
+  top: 204px;
+  left: 224px;
+  border-bottom: 70.92199px solid transparent;
+  border-left: 70.92199px solid #5ce6cb;
+  border-top: 70.92199px solid transparent;
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+}
+/* line 148, ../sass/screen.scss */
+.turquoise .p22 {
+  z-index: 1;
+  top: 204px;
+  left: 154px;
+  border-bottom: 70.92199px solid transparent;
+  border-left: 70.92199px solid #5ce6cb;
+  border-top: 70.92199px solid transparent;
+}
+/* line 152, ../sass/screen.scss */
+.turquoise .p23 {
+  z-index: 1;
+  top: 274px;
+  left: 224px;
+  border-bottom: 70.92199px solid transparent;
+  border-left: 70.92199px solid #4dd7bc;
+  border-top: 70.92199px solid transparent;
+}
+/* line 156, ../sass/screen.scss */
+.turquoise .p24 {
+  z-index: 1;
+  top: 274px;
+  left: 154px;
+  border-bottom: 70.92199px solid transparent;
+  border-left: 70.92199px solid #4dd7bc;
+  border-top: 70.92199px solid transparent;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+/* line 161, ../sass/screen.scss */
+.turquoise .b1 {
+  z-index: 2;
+  position: absolute;
+  top: 115px;
+  left: 480px;
+  background: #FFF;
+  background: radial-gradient(circle at 0 0, transparent 20px, #ffffff 0%), radial-gradient(circle at 100% 0, transparent 20px, #ffffff 0%), radial-gradient(circle at 100% 100%, transparent 20px, #ffffff 0%), radial-gradient(circle at 0 100%, transparent 20px, #ffffff 0%);
+  background-position: top left, top right, bottom right, bottom left;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+}
+/* line 180, ../sass/screen.scss */
+.turquoise .b2 {
+  z-index: 2;
+  position: absolute;
+  top: 95px;
+  left: 318px;
+  background: #FFF;
+  background: radial-gradient(circle at 0 0, transparent 40px, #ffffff 0%), radial-gradient(circle at 100% 0, transparent 40px, #ffffff 0%), radial-gradient(circle at 100% 100%, transparent 40px, #ffffff 0%), radial-gradient(circle at 0 100%, transparent 40px, #ffffff 0%);
+  background-position: top left, top right, bottom right, bottom left;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+}

@@ -1,0 +1,200 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "compass/css3";
+
+@mixin piece($width, $color, $top: 0, $left: 0) {
+  z-index: 1;
+  top: #{$top};
+  left: #{$left};
+  border-bottom: #{$width} solid transparent;
+  border-left: #{$width} solid #{$color};
+  border-top: #{$width} solid transparent;
+}
+
+body {
+  background-color: #1ABC9C;
+}
+
+$wrapper-width: 400px;
+$wrapper-height: 400px;
+
+.wrapper {
+  margin: 5% auto;
+  width: $wrapper-width;
+  height: $wrapper-height;
+  position: relative;
+}
+
+.turquoise {
+  /*Turquoise diamond*/
+  $dark: #16A085;
+  $semi-dark: #2EB89D;
+  $middle-dark: #23AD92;
+  $vivid: #5CE6CB;
+  $semi-vivid: #4DD7BC;
+
+  > div {
+    position: absolute;
+    width: 0;
+    height: 0;
+  }
+  //TODO use functions here
+  .p7 {
+    @include piece($wrapper-width/4, $dark);
+    @include rotate;
+  }
+
+  .p8 {
+    @include piece($wrapper-width/5.64, $dark, -5px, 85px);
+  }
+
+  .p1 {
+    @include piece($wrapper-width/5.64, $semi-dark, -40px, 119px);
+    @include rotate(90deg);
+  }
+
+  .p2 {
+    @include piece($wrapper-width/5.64, $semi-dark, -40px, 258px);
+    @include rotate(90deg);
+  }
+
+  .p5 {
+    @include piece($wrapper-width/5.64, $vivid, -40px, 189px);
+    @include rotate(-90deg);
+  }
+
+  .p6 {
+    @include piece($wrapper-width/5.64, $vivid, 30px, 189px);
+    @include rotate(90deg);
+  }
+
+  .p3 {
+    @include piece($wrapper-width/5.64, $semi-vivid, 30px, 119px);
+    @include rotate(-90deg);
+  }
+
+  .p4 {
+    @include piece($wrapper-width/5.64, $semi-vivid, 30px, 259px);
+    @include rotate(-90deg);
+  }
+
+  .p9 {
+    @include piece($wrapper-width/5.64, $dark, -5px, 293px);
+    @include rotate(180deg);
+  }
+
+  .p10 {
+    @include piece($wrapper-width/4, $dark, 0, 348px);
+    @include rotate(135deg);
+  }
+
+  .p19 {
+    @include piece($wrapper-width/4, $vivid, 70px, 0);
+    @include rotate(-45deg);
+  }
+
+  .p11 {
+    @include piece($wrapper-width/5.64, $semi-dark, 100px, 119px);
+    @include rotate(90deg);
+  }
+
+  .p20 {
+    @include piece($wrapper-width/5.64, $vivid, 135px, 85px);
+  }
+
+  .p12 {
+    @include piece($wrapper-width/5.64, $middle-dark, 99px, 189px);
+    @include rotate(-90deg);
+  }
+
+  .p13 {
+    @include piece($wrapper-width/5.64, $middle-dark, 169px, 189px);
+    @include rotate(90deg);
+  }
+
+  .p14 {
+    @include piece($wrapper-width/5.64, $vivid, 135px, 294px);
+    @include rotate(180deg);
+  }
+
+  .p15 {
+    @include piece($wrapper-width/5.64, $semi-dark, 100px, 259px);
+    @include rotate(90deg);
+  }
+
+  .p16 {
+    @include piece($wrapper-width/4, $vivid, 70px, 349px);
+    @include rotate(-135deg);
+  }
+
+  .p17 {
+    @include piece($wrapper-width/5.64, $vivid, 205px, 294px);
+  }
+
+  .p18 {
+    @include piece($wrapper-width/5.64, $vivid, 205px, 84px);
+    @include rotate(-180deg);
+  }
+
+  .p21 {
+    @include piece($wrapper-width/5.64, $vivid, 204px, 224px);
+    @include rotate(-180deg);
+  }
+
+  .p22 {
+    @include piece($wrapper-width/5.64, $vivid, 204px, 154px);
+   }
+
+  .p23 {
+    @include piece($wrapper-width/5.64, $semi-vivid, 274px, 224px);
+  }
+
+  .p24 {
+    @include piece($wrapper-width/5.64, $semi-vivid, 274px, 154px);
+    @include rotate(180deg);
+  }
+
+  .b1 {
+    z-index: 2;
+    position: absolute;
+    top: 115px;
+    left: 480px;
+    background: #FFF;
+    background:
+      radial-gradient(circle at 0 0, transparent 20px, #FFF 0),
+      radial-gradient(circle at 100% 0, transparent 20px, #FFF 0),
+      radial-gradient(circle at 100% 100%, transparent 20px, #FFF 0),
+      radial-gradient(circle at 0 100%, transparent 20px, #FFF 0);
+    background-position: top left, top right,
+    bottom right, bottom left;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+  }
+
+  .b2 {
+    z-index: 2;
+    position: absolute;
+    top: 95px;
+    left: 318px;
+    background: #FFF;
+    background:
+      radial-gradient(circle at 0 0, transparent 40px, #FFF 0),
+      radial-gradient(circle at 100% 0, transparent 40px, #FFF 0),
+      radial-gradient(circle at 100% 100%, transparent 40px, #FFF 0),
+      radial-gradient(circle at 0 100%, transparent 40px, #FFF 0);
+    background-position: top left, top right,
+    bottom right, bottom left;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+  }
+
+}
+
